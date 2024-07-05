@@ -134,8 +134,8 @@ public class DefaultUserServiceImpl implements DefaultUserService {
     @Override
     public void sendEmail(BookingsDTO bookingDTO, User users, String nameGenerator) {
         try {
-            final String username = "kmanjarly@gmail.com";//email id of sender
-            final String password = "Hansika@28";//application password of Gmail , I dont know how to generate watch this https://bit.ly/3PY4IeS
+            final String username = "";
+            final String password = "";
 
             Properties props = new Properties();
             props.put("mail.smtp.auth", true);
