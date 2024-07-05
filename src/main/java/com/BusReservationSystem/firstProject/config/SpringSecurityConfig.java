@@ -40,13 +40,6 @@ public class SpringSecurityConfig  extends WebSecurityConfigurerAdapter {
         return auth;
     }
 
-//    @Bean
-//    public DaoAuthenticationProvider authenticationProvider() {
-//        DaoAuthenticationProvider auth = new DaoAuthenticationProvider();
-//        auth.setUserDetailsService(customUserDetailsService);
-//        auth.setPasswordEncoder(NoOpPasswordEncoder.getInstance()); // No encoding
-//        return auth;
-//    }
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws
